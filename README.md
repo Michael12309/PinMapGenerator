@@ -1,8 +1,8 @@
 # What is this?
 
-This is a program I use to create pin pin art
+This is a program I use to create pin art
 
-I take a photo, use this program to generate a map of numbers for me,
+I take a photo, use this program to generate a map of numbers,
 use that number map to poke pins into a canvas, and I end up with a finished
 product that looks like the image below.
 
@@ -40,3 +40,19 @@ algorithm to determine which colors to map to each pixel (or 'block').
 Since the human eye values certain colors more than others, I favored the use of
 some colors over others.  To remove this bias, just add a "1" for this
 parameter.
+
+## Program output
+
+The program will output 2 images:
+
+- "Number map.png"
+  - This is a map of numbers showing you where to place pins.  Each number
+  correlates to a color from Constants.py in the order that they appear.
+
+
+- "Preview.png"
+  - A preview of what the pin art will look like using the colors
+provided in Constants.py.
+
+The console output will tell you how many pins you'll need total, and the
+amount you need per color.
