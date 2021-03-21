@@ -34,8 +34,8 @@ image: The file you want to convert.
 depend on the resolution of the image you're using, but usually, 20-40 is a good
 number.  Think of it as "20x or 40x smaller."
 
-use unweighted algorithm? (optional): By default, this program uses an
-unweighted algorithm to determine which colors to map to each pixel
+use unweighted algorithm? (optional): By default, this program uses a
+weighted algorithm to determine which colors to map to each pixel
 (or 'block'). Since the human eye values certain colors more than others,
 I favored the use of some colors over others.  To remove this bias,
 just add a "1" for this parameter.
