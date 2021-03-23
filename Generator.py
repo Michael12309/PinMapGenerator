@@ -4,8 +4,8 @@ from Constants import *
 image_location = "image.png"
 # size of blocks to round, controls the detail of the final image
 # lower block size = higher quality = more pins
-block_size = 20
-font_size = 10
+block_size = 14
+font_size = 9
 
 weighted_algo = True
 
@@ -17,7 +17,8 @@ if len(sys.argv) <= 4 and len(sys.argv) != 1:
     image_location = sys.argv[1]
 
     # block size is optional
-    if len(sys.argv) == 3:
+    if len(sys.argv) >= 3:
+        print(sys.argv[2])
         block_size = int(sys.argv[2])
 
     # algorithm type is optional
