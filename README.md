@@ -34,10 +34,9 @@ image: The file you want to convert.
 depend on the resolution of the image you're using, but usually, 20-40 is a good
 number.  Think of it as "20x or 40x smaller."
 
-use unweighted algorithm? (optional): By default, this program uses a
+\[use unweighted algorithm?\] (optional): By default, this program uses a
 weighted algorithm to determine which colors to map to each pixel
-(or 'block'). Since the human eye values certain colors more than others,
-I favored the use of some colors over others.  To remove this bias,
+(or 'block'), since the human eye values certain colors more than others.  To remove this bias,
 just add a "1" for this parameter.
 
 ## Program output
@@ -53,5 +52,5 @@ The program will output 2 images:
   - A preview of what the pin art will look like using the colors
 provided in Constants.py.
 
-The console output will tell you how many pins you'll need total and the
+The console output will tell you how many pins you'll need, and the
 amount you need per color.
