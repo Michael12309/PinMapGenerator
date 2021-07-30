@@ -6,8 +6,7 @@ I take a photo, use this program to generate a map of numbers,
 use that number map to poke pins into a canvas, and I end up with a finished
 product that looks like the image below.
 
-![Image of finished pin art](Final_product_example.jpg)
-<img src="Final_product_example.jpg" alt="pin art" width="200"/>
+<img src="Final_product_example.jpg" alt="pin art" width="300"/>
 
 # How do I use it for myself?
 
