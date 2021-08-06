@@ -25,19 +25,18 @@ For help, visit: https://pillow.readthedocs.io/en/stable/installation.html
 
 To use, download this repo, navigate to the folder in command line, and type
 ```
-python Generator.py image [block size] [use unweighted algorithm?]
+python Generator.py image_path [block size] [use unweighted algorithm?]
 ```
 
-image: The file you want to convert.
+image_path: The path to the image file that you want to convert to pin art.
 
 \[block size\] (optional): The size of each "pixel" or "block."  This will
-depend on the resolution of the image you're using, but usually, 20-40 is a good
-number.  Think of it as "20x or 40x smaller."
+depend on the resolution of the image you're using, but usually 20-40 is a good
+number.  Think of it as "20x" or "40x smaller."
 
-\[use unweighted algorithm?\] (optional): By default, this program uses a
-weighted algorithm to determine which colors to map to each pixel
-(or 'block'), since the human eye values certain colors more than others.  To remove this bias,
-just add a "1" for this parameter.
+\[use unweighted algorithm?\] (optional): Since the human eye values certain colors more than others,
+this program uses a weighted algorithm to determine which colors to map to which pixel
+(or 'block').  To remove this bias, just add a "1" for this parameter.
 
 ## Program output
 
