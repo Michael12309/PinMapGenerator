@@ -4,7 +4,7 @@ This is a program that I use to create pin art.
 
 I take a photo, use this program to generate a map of numbers,
 use that number map to poke pins into a canvas, and I end up with a finished
-product that looks like the image below.
+product.  I included a bunch I've made already below:
 
 <img src="Examples/Final_product_example.jpg" alt="pin art 1" width="300"/><img src="Examples/Final_product_example_2.jpg" alt="pin art 2" width="300" />
 <img src="Examples/Final_product_example_3.jpg" alt="pin art 3" width="300"/><img src="Examples/Final_product_example_4.jpg" alt="pin art 4" height="600"/>
