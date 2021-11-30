@@ -69,7 +69,6 @@ def fill_area(x, y, color):
 
 
 def closest_pin_color(rgb):
-    # not mine, stolen from https://stackoverflow.com/questions/54242194/python-find-the-closest-color-to-a-color-from-giving-list-of-colors?noredirect=1&lq=1
     r, g, b = rgb
     color_diffs = []
     for color in PIN_COLORS:
